@@ -19,6 +19,9 @@ header {
     flex-grow: 1;
     text-align: center;
     text-transform: uppercase;
+    font-family: Heebo; font-weight: 600; 
+    font-size: 3rem;
+
 
 }
 
@@ -27,6 +30,7 @@ header {
     margin: 1rem;
     flex-wrap: wrap;
     position: fixed;
+    font-family: Heebo; font-weight: 600;
 }
 
 .menu {
@@ -34,15 +38,25 @@ header {
     margin: 1rem;
     flex-grow: 1;
     justify-content: center;
+    
 }
 
 .menu li {
     display: inline;
-    gap: 4rem;
 }
 .menu li a {
    text-decoration: none;
    text-transform: uppercase;
    margin: 1rem;
+   font-family: Heebo; font-weight: 100; 
+   color: black;
 
+}
+
+
+body {
+    background-image: url(/images/dave-m5oOq4iyaeQ-unsplash.jpg);
+    height: 1080;
+    width: 1920;
+    background-size: cover;    
 }
