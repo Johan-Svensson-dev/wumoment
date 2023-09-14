@@ -1,27 +1,48 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    }
-
-
-.header {
-    border: 0.2rem solid;
-    text-align: center;
-    display: flex;
-    align-items: center;    /* Center horizontally */
-    justify-content: space-between; /* Space out h1 and h2 */
-    width: 100%; /* Ensure full width */
-}   
-    
-
-
-header h1 {
-    flex: 1; /* Grow to fill available space */
-    text-align: center; /* Center h1 */
 }
 
-header h3 {
-    margin-right: 20px; /* Adjust the margin as needed */
-    font-size: 1.2em; /* Adjust the font size as needed */
+header {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+
+}
+
+
+.container h1 {
+    margin: 1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.container h3 {
+    text-transform: uppercase;
+    margin: 1rem;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    margin: 1rem;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline;
+    gap: 4rem;
+}
+.menu li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   margin: 1rem;
+
 }
