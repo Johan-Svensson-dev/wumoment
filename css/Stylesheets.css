@@ -4,7 +4,9 @@
 }
 
 header {
-    background-color: grey;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
 }
 
 .container {
@@ -55,8 +57,12 @@ header {
 
 
 body {
+    background-repeat: no-repeat;
+}
+
+html {
+    min-height: 100%;
     background-image: url(/images/dave-m5oOq4iyaeQ-unsplash.jpg);
-    height: 1080;
-    width: 1920;
-    background-size: cover;    
+    background-size: cover;
+
 }
