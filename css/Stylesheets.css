@@ -1,5 +1,68 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+}
+
+header {
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+}
+
+.container {
+    display: flex;
+
+}
+
+
+.container h1 {
+    margin: 1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Heebo; font-weight: 600; 
+    font-size: 3rem;
+
+
+}
+
+.container h3 {
+    text-transform: uppercase;
+    margin: 1rem;
+    flex-wrap: wrap;
+    position: fixed;
+    font-family: Heebo; font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    margin: 1rem;
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+
+.menu li {
+    display: inline;
+}
+.menu li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   margin: 1rem;
+   font-family: Heebo; font-weight: 100; 
+   color: black;
+
+}
+
+
+body {
+    background-repeat: no-repeat;
+}
+
+html {
+    min-height: 100%;
+    background-image: url(/images/dave-m5oOq4iyaeQ-unsplash.jpg);
+    background-size: cover;
+
 }
